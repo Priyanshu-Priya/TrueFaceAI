@@ -1,0 +1,84 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background: #a1c3ff;
+
+}
+
+
+
+.logo{
+    font-size: larger;
+    text-transform: uppercase;
+
+
+    
+}
+.navbar-custom {
+    background-color: #3474e6;
+   
+      
+}
+.nav-item a,.logo {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #fff; /* Ensure the text color is white */
+    /* text-transform: uppercase; */
+     /* Example of additional style: makes the text uppercase */
+}
+
+
+
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand,
+.header h1,
+.header p {
+  color: #FFF !important;
+}
+.header{
+    background-color: #0151cc;
+    min-height: 400px;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.header img{
+    max-width: 60%;
+    margin: 5% 0;
+    
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    margin-right: 5%;
+}
+
+.cta-btn{
+    margin-bottom: 1%;
+}
+
+@media(max-width: 768px){
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+
+    }
+    .boxes .container{
+        display: block;
+    }
+    .header img{
+        max-width: 80%;
+        margin-bottom: 5px;
+    }
+}
