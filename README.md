@@ -36,7 +36,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or support, please contact us at [priyanshupriyacodes@gmial.com](mailto:priyanshupriyacodes@gmial.com).
+For any inquiries or support, please contact us at [priyanshupriyacodes@gmail.com](mailto:priyanshupriyacodes@gmail.com).
 
 ---
 
