@@ -87,16 +87,37 @@
 
 /* style.css */
 
-/* Footer styles */
-footer {
-    background-color: #343a40; 
-    color: #ffffff; 
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
+/* Ensure the body takes full height */
+
+  /* Make the main content stretch to fill available space */
+/* Ensure the html and body take full height */
+html, body {
+    height: 100%;
+    margin: 0;
   }
   
+  /* Main container setup */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes up full viewport height */
+  }
+  
+  /* Ensure the main content area grows to fill available space */
+  main {
+    flex: 1;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #343a40; 
+    color: #ffffff; 
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto; /* Pushes the footer to the bottom of the container */
+  }
+  
+  /* Footer links styling */
   footer a {
     color: #ffffff; 
     text-decoration: none;
@@ -105,5 +126,6 @@ footer {
   footer a:hover {
     text-decoration: underline;
   }
+  
   
 
